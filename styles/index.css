@@ -63,6 +63,14 @@ ul{
     font-weight: 600;
 }
 
+.container-page {
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
 .container-header{
     width: 1126px;
     width: 100%;
@@ -74,8 +82,7 @@ ul{
 }
 
 .main-title{
-    width: 518px;
-    width: 100%;
+    max-width: 518px;
     height: 108px;
     margin-right: 60px;
     font-family: "Poppins", sans-serif;
@@ -85,8 +92,7 @@ ul{
 
 .main-text{
     color:#544837;
-    width: 458px;
-    width: 100%;
+    max-width: 458px;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-weight: regular;
@@ -118,25 +124,41 @@ ul{
     color: #FF9900;
 }
 .container-design {
-    width: 2211px;
-    width: 100%;
-    height: 543px;
+    margin: auto;
+    max-width: 2211px;
+    min-height: 543px;
     margin-top:65px;
     display: flex;
-    align-items: ;
+    flex-direction: column;
 }
 
 .design-title {
-    width: 518px;
-    width: 100%;
+    max-width: 539px;
     height: 108px;
-    margin-right: 60px;
     font-family: "Poppins", sans-serif;
-    font-size: 44px;
+    font-size: 36px;
+    margin: auto;
     font-weight: bold; 
     text-align: center;     
 }
 
+.design-info {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.design-boxes {
+    margin: auto;
+    max-width: 1095px;
+    width: 100%;
+    height: 204px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+
+}
 .design-small-title {
     font-family: "poppins", sans-serif;
     font-size: 22px;
