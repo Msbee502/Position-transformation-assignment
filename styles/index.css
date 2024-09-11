@@ -63,14 +63,6 @@ ul{
     font-weight: 600;
 }
 
-.container-page {
-    max-width: 1400px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-
 .container-header{
     width: 1126px;
     width: 100%;
