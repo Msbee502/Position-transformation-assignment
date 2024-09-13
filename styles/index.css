@@ -87,7 +87,6 @@ header {
 .btn-start{
     width: 175px;
     height: 53px;
-    margin-top: 45px;
     border: #FF9900;
     background-color: #FF9900;
     font-family: "Poppins", sans-serif;
@@ -113,6 +112,7 @@ header {
     margin-top:65px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .design-title {
     max-width: 539px;
@@ -125,8 +125,7 @@ header {
 }
 .design-info {
     height: auto;
-    width: auto;
-   
+    width: auto;   
 }
 .design-boxes {
     margin: auto;
@@ -136,6 +135,7 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 60px;
 }
 .design-small-title {
     font-family: "poppins", sans-serif;
