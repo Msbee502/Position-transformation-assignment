@@ -105,6 +105,19 @@ header {
     border: white;
     color: #FF9900;
 }
+
+.design-btn {
+    width: 175px;
+    height: 53px;
+    border: #FF9900;
+    background-color: #FF9900;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+
 .container-design {
     margin: auto;
     max-width: 1134px;
@@ -128,14 +141,12 @@ header {
     width: auto;   
 }
 .design-boxes {
-    margin: auto;
     max-width: 1095px;
     width: 100%;
-    height: 204px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-bottom: 60px;
 }
 .design-small-title {
     font-family: "poppins", sans-serif;
@@ -159,12 +170,12 @@ header {
 }
 .container-professionals {
     margin: auto;
-    margin-top: 160px;
     max-width: 1134px;
     width: 100%;
     height: 496px;
     display: flex;
-    align-content: space-around;  
+    align-items: center;
+    
 }
 .info-professionals {
     margin: auto;
@@ -172,10 +183,11 @@ header {
     max-width: 486px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .container-managers {
     margin: auto;
-    margin-top: 120px;
+    margin-top: 80px;
     max-width: 1134px;
     width: 100%;
     height: 496px;
